@@ -1,7 +1,7 @@
 import "dotenv/config"
 
 import express from "express"
-import configViewEngine from "./config/configEngine"
+import configViewEngine from "./config/configEngine.js"
 import routes from "./routes/web"
 import cronJobController from "./controllers/cronJobController"
 import socketIoController from "./controllers/socketIoController"
